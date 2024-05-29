@@ -15,7 +15,7 @@ load_dotenv(override=True)
 API_ID = int(os.getenv("TG_API_ID","4682685"))
 admins = [945284066]
 API_HASH = os.getenv("TG_API_HASH","3eba5d471162181b8a3f7f5c0a23c307")
-BOT_TOKEN = os.getenv("BOT_TOKEN","5484278199:AAEJUD35fd3yd_HelNYjBSFR3FdTnNSkyyk")
+BOT_TOKEN = os.getenv("BOT_TOKEN","5484278199:AAFyPN7RbJQC4usLJQ_WtBuE0jtqiInIGpA")
 #mongo_connection_string = os.environ.get("MONGO_CONNECTION_STRING","mongodb+srv://misoc51233:ZlP391e4m0IIS85S@cluster0.8xs2zsl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 MONGODB_URL = os.getenv("MONGODB_URL","mongodb+srv://misoc51233:ZlP391e4m0IIS85S@cluster0.8xs2zsl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 BOT_USERNAME = None
