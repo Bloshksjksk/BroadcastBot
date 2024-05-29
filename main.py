@@ -55,6 +55,8 @@ async def startprivate(client, message):
             ]
         ]
     )
+     welcomed = f"🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠"
+    await message.reply_text(welcomed, reply_markup=joinButton)
     raise StopPropagation
 
 
