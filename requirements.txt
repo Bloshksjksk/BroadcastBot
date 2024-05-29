@@ -1,4 +1,12 @@
 pyrogram
+telethon
+python-dotenv
+pymongo
+cryptg
+pillow
+aiohttp
+hachoir
+asyncio
 tgcrypto
 aiofiles
 motor
