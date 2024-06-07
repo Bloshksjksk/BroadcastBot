@@ -45,18 +45,7 @@ async def startprivate(client, message):
             )
         else:
             logging.info(f"#NewUser :- Name : {message.from_user.first_name} ID : {message.from_user.id}")
-    joinButton = InlineKeyboardMarkup(
-        [
-            [
-                InlineKeyboardButton("CHANNEL", url="https://t.me/movie_time_botonly"),
-                InlineKeyboardButton(
-                    "SUPPORT GROUP", url="https://t.me/trumbotchat"
-                ),
-            ]
-        ]
-    )
-    welcomed = f"🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠"
-    await message.reply_text(welcomed, reply_markup=joinButton)
+
     raise StopPropagation
 
 
